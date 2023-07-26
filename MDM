@@ -1,0 +1,26 @@
+#########################################################
+# 3-5-2023
+# Formal Release
+# Common BC login application version 	: 1.17.4.0
+# FI Library version 			: 1.27.2.0 
+########################################################
+
+/*****************************************************/
+
+mv -f Common_BCLogin /mnt/userfs/apps/Common_BCLogin
+sync
+
+mv -f libFIStack.so /lib/libFIStack.so
+sync
+
+chmod 777 /mnt/userfs/apps/Common_BCLogin
+sync
+
+chmod 777 /lib/libFIStack.so
+sync
+
+/*****************************************************/
+
+
+
+

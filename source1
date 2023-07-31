@@ -1,0 +1,203 @@
+IDBI URL: 103.93.44.104:443 IPOS Production URL 
+---------------------------------------------------------------------------------------------
+Production Bank Public IP:
+FI Stack 103.93.45.120 Port-443
+https://103.93.45.120:443//kiosk/bclogin
+https://103.93.45.120:443/portal/portallogin
+----------------------------------------------------------------------------------------------
+UAT Bank Public IP:
+FI Stack 103.93.44.197
+Port-9001
+https://103.93.44.197:9001/kiosk/bclogin
+https://103.93.45.120/kiosk/bclogin
+https://103.93.44.197-9001/portal/portallogin
+---------------------------------------------------------------------------------------------
+Production:
+FD68E9ADE361C4D6A49BBAD554A80D29
+Key Check value: 0A816B 
+--------------------------------------------------
+UAT DTMK KEY
+Combined key:C1B901233194B02A5E32EAE6EFA4D0C7
+KCV:AD9688
+--------------------------------------------------------------------------------------------
+Client Application Version:
+
+10.5.0.0 IPOS
+4.3.7.0  IPOS 
+1.17.4.0 FI-Stack production
+1.17.5.0 SHG lib pre production
+-----------------------------------------------------------------------------------------------
+FI-Stack Client 
+
+Banking Lib version 1.27.2.0
+Banking latest version 1.27.7.0 pre prduction under testing
+
+------------------------------------------------------------------------
+
+Address: ( Attender  Name : Prasad N)  
+F Block, 60 Feet Main Road,
+Sahakar Nagar,
+Bangalore.Pin Code-5600092,
+Integra Micro Systems Pvt Ltd
+Prasad N contact no: +91 85530 35895
+----------------------------------------------------------------------------------------------------
+https://www.microsoft.com/en-in/download/confirmation.aspx?id=40784
+----------------------------------------------------------------------------------------------------
+Steps USB update:
+
+1. Unzip the Auto APN file.
+2. Unzip IMTS file. 
+3. Copy two files directly to the pen drive (download_to_terminal), (IMTS_WIFI).
+4. Connect the pen drive to the terminal.
+5. Go to USB update and click on option two downloads from USB.
+6. Once the file is downloaded restart the device manually.
+7. And off the terminal and connect the WIFI dongle.
+8. Once after WIFI dongle is connected to the USB on the terminal.
+9. Hotspot the internet from the mobile phone.
+10. In the terminal to configure WIFI settings click on the Auto APN settings and choose the mode of operation of the internet on WIFI.
+12. Wifi settings >>Scan choose your mobile hotspot network click on it and enter the mobile configured WIFI password.
+13. And chuck on save the password and connect.
+-------------------------------------------------------------------------------------
+Go to RMS and click on the>>settings>>ip settings>> set time servers and RMS server.
+RMS server 
+Ip: 182.72.231.115
+Port:8121
+Time server 
+Ip:182.72.231.115
+Port:9813
+--------------------------------------------------------------
+Action Number	Action Name
+767	IMTS_RDS_1.0.7
+768	IMTSQT_RDS_1.0.7
+776	IMTSQT_MORPHO_RDS_1.0.7
+769	IMTSQT_CL_RDS_1.0.7
+765	IMTS_GNOME_RD_1.0.7
+-------------------------------------------------------------
+Action Code	Action Name
+874	        IMTSQT_CL_RDS_1.0.6
+875	        IMTSQT_MORPHO_RDS_1.0.6
+876	        IMTSQT_RDS_1.0.6
+877	        IMTS_RDS_1.0.6
+-------------------------------------------------------------------------------------
+Follow the below steps for communication error and Network unreachable:
+
+Step 1: Check the data pack of the Sim.
+
+Step 2: SIM Card should be slotted., Turn the terminal device and remove the battery and slot the SIM on the left-handed top slot.
+
+step 3: Go to RMS and click on the>>settings>>ip settings>> set time servers and RMS server.
+RMS server 
+Ip: 182.72.231.115
+Port:8121
+Time server
+Ip:182.72.231.115
+Port:9813
+
+Step 4: To check the connectivity go to RMS and click on the option  2 sync time.
+
+>> If the network is present time, date, and time sync successful will be displayed.
+
+>> If connectivity is not present. It will display a communication error.
+
+Step 5: In menu Auto APN settings if your using a SIM card GPRS should be checked.
+
+Step 6: If it is still not working after doing the above settings change the sim or location and try.
+
+-------------------------------------------------------------------------------------
+Step 1: Connect the pen drive to the terminal. 
+Step 2: In the Menu go to USB update and click on option 2 download from USB update.
+Step 3: Wait for the downloading to get completed and successful.
+Step 4: After Download got successful wait for 1 minute and restart the device manually.
+
+-------------------------------------------------------------------------------------------
+BC Name:
+Aadhaar No:
+OD Account No:
+Sole ID:
+Terminal Serial No:
+---------------------------------------------------------------------------------------------
+
+IMTS_QT_CL Configuration 
+495  -  sam bc pend 
+456  -  sam bc csv update
+558  -  terminal config
+769  -  rd application  send the rd info to syed for mapping
+
+---------------------------------------------------------------------------------------
+Application version 4.3.3.0                                                            
+673:-marpho File size 3184k
+674:-Cl                
+675:-imts  https://ibfikiosk.indianbank.in:8443/atyatikiosk/
+672:-Qt
+-------------------------------------------------------------------------------------
+848 IMTSQT_wave_Audio file
+847 IMTS_Wave_Audio file
+855 IMTS_QT_CL_Audio file    
+868 Morpho_Audio file
+--------------------------------------------------------------------------------
+18-12-2021 RD Services released version 1.0.4
+QT:-  768
+TS:- 767
+CL:-  769
+MORPHO:- 834
+-------------------------------------------------------------------------------------
+792 config file PAX MORPHO | 03/12/21 EMV Config file changes   (For both Customer name and rupay TX)
+722 config file PAX CL   | 03/12/21   EMV Config file changes
+836 config file PAX QT   | 03/12/21   EMV Config file changes
+    config file PAX TS   | 03/12/21   EMV Config file changes
+--------------------------------------------------------------------------------------
+681-IMTS_Banking_New_LTS
+683-IMTSQT_CL_Banking_New_LTS
+682-IMTSQT_Banking_New_LTS
+684-IMTSQT_MORPHO_Banking_New_LTS
+------------------------------------------------------------------------------------
+IDBI Bank new application 3.43.2.0
+IMTSQT_CL RMS ACTION 731
+IMTSQT RMS ACTION 730
+MORPHO RMS ACTION 795
+IMTS RMS ACTION 729
+---------------------------------------------------------------------------------------
+IMTS_QT Configuration
+420  -  sam bc pend 
+466  -  sam bc csv update
+370/533  -  terminal config
+768  -  rd application  send the rd info to syed for mapping
+---------------------------------------------------------------------------------------
+MORPHO Configuration
+543  -  sam bc pend 
+517  -  sam bc csv update
+521  -  terminal config
+776  -  rd application  send the rd info to syed for mapping
+780  -  IMTSQT_Morpho_RDLIB
+---------------------------------------------------------------------------------------
+RMS Action
+Action Number	Action Name
+767	IMTS_RDS_1.0.7
+768	IMTSQT_RDS_1.0.7
+776	IMTSQT_MORPHO_RDS_1.0.7
+769	IMTSQT_CL_RDS_1.0.7
+765	IMTS_GNOME_RD_1.0.7
+
+-------------------------------------------------------------------------------------
+
+ BC Template:
+ 
+Name: 
+Addhaar No:
+Mobile No: 
+Device No: 
+Branch code:  
+address: 
+Pin Code:                                       
+State:
+------------------------------------------------------------------------------
+
+BC Name:
+Account No:
+Aadhaar No:
+Mobile No:
+MID:
+TID:
+Device serial No:
+Branch Code:
+
